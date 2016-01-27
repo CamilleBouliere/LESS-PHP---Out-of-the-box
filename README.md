@@ -36,7 +36,8 @@ The script:
 
  1. has compiled *less/test.less* and shows it to you
  2. has created *css/test.css* and is NOT showing it to you
- 3. has created somes files in *css_cache* : don't touch them
+ 3. has created *css/test.map* and you can see it in your dev tools
+ 4. has created somes files in *css_cache* : don't touch them
 
 So, basicly you have to modify files inside *less/* directory and call your CSS the same way you call *.less* files. It's transparent and can be used with quite any CMS.
 
