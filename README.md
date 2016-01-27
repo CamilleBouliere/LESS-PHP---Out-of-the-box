@@ -10,7 +10,7 @@ Out of the box LESS compiler in PHP with sourcemaps and cache with Apache rewrit
  - Generates static *.css* files (so in production you can just copy the files or let the compiler live its life)
  - Cache
  - Dev/production different behaviour
- - Show errors in dev mode with a :before on body
+ - Show errors in dev mode with a *:before* on body
 
 ## Instructions
 
@@ -18,7 +18,7 @@ Out of the box LESS compiler in PHP with sourcemaps and cache with Apache rewrit
  2. *css* and *css_cache* directories must be writable
  3. Open *yourserver/css/test.css* in your browser
 
-You should see this :
+You should see this:
 
 ```css
 .box {
@@ -37,15 +37,15 @@ The script:
  1. has compiled *less/test.less* and shows it to you
  2. has created *css/test.css* and is NOT showing it to you
  3. has created *css/test.map* and you can see it in your dev tools
- 4. has created somes files in *css_cache* : don't touch them
+ 4. has created somes files in *css_cache*: don't touch them
 
 So, basicly you have to modify files inside *less/* directory and call your CSS the same way you call *.less* files. It's transparent and can be used with quite any CMS.
 
-## What is nice ?
+## What is nice?
 
-You know how to copy a file ? You know LESS ? You are ready! It's perfect for frontend developers who don't want to bother with backend.
+You know how to copy a file? You know LESS? You are ready! It's perfect for frontend developers who don't want to bother with backend.
 
-## What is NOT nice ?
+## What is NOT nice?
 
 I'm not a back-end developer! I don't know shit about nice PHP coding rules. So, here you have my little tool, built to ease up my *coding* life. It mostly works well... but it's not optimized, there might be some errors and the production mode might be buggy.
 
@@ -53,9 +53,9 @@ I'm not a back-end developer! I don't know shit about nice PHP coding rules. So,
 
 Sometimes, for some reason, sourcemap seams to not work. Just refresh your browser.
 
-## You prefer SASS ?
+## You prefer SASS?
 
-Check out [SASS-PHP---Out-of-the-box][sasscompiler].
+Check out [SASS PHP - Out of the box][sasscompiler].
 
 [compilerurl]: https://github.com/oyejorge/less.php
 [sasscompiler]: https://github.com/CamilleBouliere/SASS-PHP---Out-of-the-box
