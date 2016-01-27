@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^css/?(.+)\.css$ inc/less_compiler.php?filename=$1
