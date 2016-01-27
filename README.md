@@ -1,4 +1,4 @@
-# LESS-PHP---Out-of-the-box
+# LESS PHP - Out of the box
 
 Out of the box LESS compiler in PHP with sourcemaps and cache with Apache rewriting based on [oyejorge's less.php][compilerurl].
 
@@ -43,7 +43,7 @@ So, basicly you have to modify files inside *less/* directory and call your CSS 
 
 ## What is nice ?
 
-You know how to copy a file ? You know LESS ? You are ready ! It's perfect for frontend developers who don't want to bother with backend.
+You know how to copy a file ? You know LESS ? You are ready! It's perfect for frontend developers who don't want to bother with backend.
 
 ## What is NOT nice ?
 
@@ -53,5 +53,9 @@ I'm not a back-end developer! I don't know shit about nice PHP coding rules. So,
 
 Sometimes, for some reason, sourcemap seams to not work. Just refresh your browser.
 
+## You prefer SASS ?
+
+Check out [SASS-PHP---Out-of-the-box][sasscompiler].
 
 [compilerurl]: https://github.com/oyejorge/less.php
+[sasscompiler]: https://github.com/CamilleBouliere/SASS-PHP---Out-of-the-box
