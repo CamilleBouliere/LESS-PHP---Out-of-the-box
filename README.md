@@ -41,11 +41,11 @@ The script:
 
 So, basicly you have to modify files inside *less/* directory and call your CSS the same way you call *.less* files. It's transparent and can be used with quite any CMS.
 
-## What is nice?
+## What is nice
 
 You know how to copy a file? You know LESS? You are ready! It's perfect for frontend developers who don't want to bother with backend.
 
-## What is NOT nice?
+## What is NOT nice
 
 I'm not a back-end developer! I don't know shit about nice PHP coding rules. So, here you have my little tool, built to ease up my *coding* life. It mostly works well... but it's not optimized, there might be some errors and the production mode might be buggy.
 
